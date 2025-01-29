@@ -10,7 +10,7 @@ Display.Clear()
 Display.setBrightness(1)
 
 while True:
-    now = now.hour
+    now = datetime.datetime.now()
     hour = now.hour
     minute = now.minute
     second = now.second
